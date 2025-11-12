@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Borderify",
+  "name": "Content-ia",
   "version": "1.0",
 
-  "description": "Allow to select text and ask chat gpt help with page context, with pre registered questions.",
+  "description": "",
 
   "icons": {
     "48": "icons/visibility-48.png"
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["borderify.js"]
+      "js": ["contentia.js"]
     }
   ]
 }
